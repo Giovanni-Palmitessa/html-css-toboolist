@@ -1,3 +1,20 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: white;
+}
+
+img{
+    width: 80px;
+}
+
+#title{
+    font-family: 'Open Sans', sans-serif;
 }
