@@ -10,15 +10,18 @@ body{
 
 header{
     background-color: white;
+    
 }
 
 img{
     width: 80px;
+    margin-top: 10px;
 }
 
 #title{
     font-family: 'Open Sans', sans-serif;
     font-size: 70px;
+    vertical-align:top;
 }
 
 nav{
@@ -71,8 +74,9 @@ nav{
 .checkbox{
     color: green;
     border: 1px solid green;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin-left: 35px;
+    width: 10px;
 }
 
 .note{
@@ -81,8 +85,7 @@ nav{
     font-size: 12px;
     padding: 8px;
     border: 1px solid transparent;
-    border-radius: 15px;
-    
+    border-radius: 15px; 
 }
 
 .blue{
@@ -114,4 +117,8 @@ nav{
 
 .dark-green{
     background-color: darkgreen;
+}
+
+div{
+    margin-top: 20px;
 }
