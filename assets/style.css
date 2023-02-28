@@ -93,3 +93,14 @@ nav{
 .purple{
     background-color: purple;
 }
+
+.green{
+    background-color: lightgreen;
+}
+
+.crossbox{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 35px;
+}
