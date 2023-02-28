@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -18,4 +19,33 @@ img{
 #title{
     font-family: 'Open Sans', sans-serif;
     font-size: 70px;
+}
+
+nav{
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: white;
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+}
+
+#button1{
+    margin-left: 40px;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+}
+
+#button2{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: lightgray;
+    padding: 7px;
+    margin-left: 5px;
+    background-color: white;
 }
