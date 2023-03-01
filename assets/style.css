@@ -1,131 +1,125 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
-    background-color: lightgray;
+body {
+	background-color: #aaaaaa;
 }
 
-header{
-    background-color: white;
-    
+header {
+	margin-bottom: 5rem;
+	background-color: white;
+	padding: .5rem 1rem;
 }
 
-img{
-    width: 80px;
-    margin-top: 10px;
+.logo {
+	vertical-align: middle;
 }
 
-#title{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 70px;
-    vertical-align:top;
+h1 {
+	display: inline;
+	vertical-align: middle;
 }
 
-nav{
-    margin-top: 20px;
-    margin-right: 200px;
-    margin-left: 200px;
-    background-color: white;
-    border: 1px solid white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 20px;
+main {
+	margin: 4rem auto;
+	max-width: 550px;
+	background-color: white;
+	border-radius: 10px;
 }
 
-#button1{
-    margin-left: 40px;
+.btns {
+	padding: 1.5rem 3rem .5rem;
+	border-bottom: 2px solid #aaaaaa;
+}
+
+#button-1{
     background-color: cornflowerblue;
     border: 1px solid cornflowerblue;
     border-radius: 5px;
     color: white;
-    padding: 7px;
+    padding: 5px;
 }
 
-#button2{
+#button-2{
+    background-color: white;
     border: 1px solid lightgray;
     border-radius: 5px;
     color: lightgray;
-    padding: 7px;
-    margin-left: 5px;
-    background-color: white;
+    padding: 5px;
 }
 
-
-.container{
-    margin-top: 2px;
-    background-color: white;
-    margin-right: 200px;
-    margin-left: 200px;
-    padding: 30px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+ul {
+	list-style: none;
 }
 
-.main{
-    margin-left: 30px;
-    font-size: 25px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.list-sections {
+	padding: 1.5rem 3rem 1rem;
 }
 
-.checkbox{
-    color: green;
-    border: 1px solid green;
-    border-radius: 50%;
-    margin-left: 35px;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    display: inline-block;
+.arrow-down {
+	vertical-align: -2px;
+	font-size: .8em;
 }
 
-.note{
-    display: inline-block;
-    color: white;
+.icon-status {
+	display: inline-block;
+	width: 1.7em;
+	height: 1.7em;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: bold;
+	font-size: .6em;
+}
+
+.status-tick {
+	color: green;
+	border-color: green;
+}
+
+.status-cross {
+	color: red;
+	border-color: red;
+}
+
+.tag {
+	display: inline-block;
+	padding: .3em .5em;
+	border-radius: 1em;
+	color: white;
     font-size: 12px;
-    padding: 8px;
-    border: 1px solid transparent;
-    border-radius: 15px; 
 }
 
-.blue{
-    background-color: cornflowerblue;
+.tag-blue {
+	background-color: rgb(22, 133, 203);
 }
 
-.purple{
-    background-color: purple;
+.tag-purple {
+	background-color: purple;
 }
 
-.green{
-    background-color: lightgreen;
+.tag-green{
+    background-color: green;
 }
 
-.crossbox{
-    color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    margin-left: 35px;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    display: inline-block;
-}
-
-.orange{
+.tag-orange{
     background-color: orange;
 }
 
-.pink{
-    background-color: palevioletred;
+.tag-pink{
+    background-color: pink;
 }
 
-.dark-green{
-    background-color: darkgreen;
+
+.tag-lightgreen{
+    background-color: aquamarine;
 }
 
-div{
-    margin-top: 20px;
+ul li{
+    margin: 10px;
 }

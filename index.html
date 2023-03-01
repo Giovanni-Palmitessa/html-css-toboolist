@@ -1,79 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToBooList</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Toboolist</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
-        <img src="img/Logo.png" alt="Logo Boolean">
-        <span id="title">Toboolist</span>
-    </header>
+	<header>
+		<img class="logo" src="img/Logo.png" alt="Logo Toboolist">
+		<h1>Toboolist</h1>
+	</header>
 
-    <nav>
-        <button id="button1">Add Task</button>
-        <button id="button2">Add Section</button>
-    </nav>
+	<main>
+		<div class="btns">
+			<button id="button-1">Add Task</button>
+			<button id="button-2">Add Section</button>
+		</div>
 
-    <div class="container">
-        <div class="main">&#9660; New Task</div>
-            <span class="checkbox">&#10003;</span>
-            <span>Quarterly Newsletter</span>
-            <span class="note blue">Editorial</span>
+		<ul class="list-sections">
+			<li>
+				<h2><span class="arrow-down">&#9662;</span> New Task</h2>
+				<ul>
+					<li><span class="icon-status status-tick">&check;</span>	Quarterly Newsletter <span class="tag tag-blue">Editorial</span></li>
+				</ul>
+			</li>
+			<li>
+				<h2><span class="arrow-down">&#9662;</span> Today</h2>
+				<ul>
+					<li><span class="icon-status status-tick">&check;</span> Recruiting blog post <span class="tag tag-blue">Editorial</span></li>
+                    
+                    <li><span class="icon-status status-tick">&check;</span> Mobile app launch <span class="tag tag-purple">Q1 Goals</span></li>
 
-        <div class="main">&#9660; Today</div>
-            <span class="checkbox">&#10003;</span>
-            <span>Recruiting blog post</span>
-            <span class="note blue">Editorial</span>
+                    <li><span class="icon-status status-cross">&cross;</span> Interview John H. <span class="tag tag-green">Recruiting</span></li>
 
-            <div>
-                <span class="checkbox">&#10003;</span>
-                <span>Mobile App Launch</span>
-                <span class="note purple">Q1 Goals</span>
-            </div>
+                    <li><span class="icon-status status-tick">&check;</span> Summit update to mobile storefronts <span class="tag tag-orange">Mobile</span></li>
+                </ul>
+			</li>
+			<li>
+				<h2><span class="arrow-down">&#9662;</span> Upcoming</h2>
+				<ul>
+					<li><span class="icon-status status-cross">&cross;</span> Schedule meeting with Alex</li>
 
-            <div>
-                <span class="crossbox">&#x2717;</span>
-                <span>Interview John H.</span>
-                <span class="note green">Q1 Goals</span>
-            </div>
+                    <li><span class="icon-status status-tick">&check;</span> Homepage Refresh <span class="tag tag-pink">Web Site</span></li>
 
-            <div>
-                <span class="checkbox">&#10003;</span>
-                <span>Summit update to mobile storefronts</span>
-                <span class="note orange">Mobile</span>
-            </div>
-        
-        <div class="main">&#9660; Upcoming</div>
+                    <li><span class="icon-status status-tick">&check;</span> Onboard new Sales team members <span class="tag tag-lightgreen">Sales</span></li>
 
-            <div>
-                <span class="crossbox">&#x2717;</span>
-                <span>Schedule Meeting with Alex</span>
-            </div>
-
-            <div>
-                <span class="checkbox">&#10003;</span>
-                <span>Homepage Refresh</span>
-                <span class="note pink">Website</span>
-            </div>
-
-            <div>
-                <span class="checkbox">&#10003;</span>
-                <span>Onboard new Sales team members</span>
-                <span class="note dark-green">Sales</span>
-            </div>
-
-            <div>
-                <span class="checkbox">&#10003;</span>
-                <span>Review Editorial Calendar</span>
-                <span class="note blue">Editorial</span>
-            </div>
-    </div>
+                    <li><span class="icon-status status-tick">&check;</span> Review editorial Calendar <span class="tag tag-blue">Editorial</span></li>
+				</ul>
+			</li>
+		</ul>
+	</main>
 </body>
 </html>
